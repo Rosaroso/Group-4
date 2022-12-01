@@ -62,14 +62,13 @@ nav .audio audio {
     background-size: cover;
     color:rgb(255, 255, 255);
 }
-footer {
+.logo {
     background-color: rgb(19, 17, 17);
 }
 
-footer .container-language {
-    list-style: none;
+.logo .container-language {
     color: rgb(255, 255, 255);
 }
-footer .container-language img {
+.logo .container-language img {
     width: 50px;
 }
