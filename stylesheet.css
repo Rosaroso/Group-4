@@ -73,3 +73,21 @@ nav .audio audio {
 .logo .container-language img {
     width: 50px;
 }
+.character_container {
+    background-color: rgb(19, 17, 17);
+}
+.character_container .character_profile {
+    background-image: url(aswang.jpg);
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.character_container .character_story {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+}
