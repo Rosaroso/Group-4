@@ -1,13 +1,5 @@
-.carousel-item {
-    height: 600px;
-}
-.content {
-    height: 1000px;
-    background-color: black;
-}
-
 .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(19, 17, 17);
 }
 .navbar .container-fluid .navbar-brand {
     color: rgb(255, 255, 255);
@@ -43,4 +35,18 @@ nav .audio audio {
     display: none;
     width: 300px;
     height: 20px;
+}
+.header-container .carousel-item {
+    height: 600px;
+}
+
+.containerGallery {
+    height: 600px;
+    background-color: rgb(19, 17, 17);
+}
+.containerGallery .carousel-gallery {
+    display: inline-block;
+}
+.containerGallery .card {
+    margin: 20px;
 }
