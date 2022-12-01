@@ -39,21 +39,30 @@ nav .audio audio {
 .header-container .carousel-item {
     height: 600px;
 }
-
-.containerGallery {
-    height: 600px;
+.title-gallery {
+    font-size: 30px;
+    font-family: calibri light;
+    text-align: center;
+    padding: 30px;
+    color:rgb(255, 255, 255);
     background-color: rgb(19, 17, 17);
 }
-.containerGallery .carousel-gallery {
-    display: inline-block;
+.containerGallery .carousel-inner {
+    padding: 25px;
+    background-color: rgb(19, 17, 17);
 }
 .containerGallery .card {
+    display: inline-flex;
+    justify-content: center;
     margin: 20px;
-    width: 18rem
+    width: 15rem;
+    background-position: center;
+    background-size: cover;
 }
-.containerGallery .card .card-text {
+.containerGallery .card {
     text-align: center;
+    color:rgb(255, 255, 255);
 }
-.containerGallery .card img {
-    width: 18rem
+.containerGallery .carousel-item {
+    text-align: center;
 }
