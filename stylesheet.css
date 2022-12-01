@@ -49,4 +49,11 @@ nav .audio audio {
 }
 .containerGallery .card {
     margin: 20px;
+    width: 18rem
+}
+.containerGallery .card .card-text {
+    text-align: center;
+}
+.containerGallery .card img {
+    width: 18rem
 }
