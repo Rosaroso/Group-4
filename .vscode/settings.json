@@ -1,0 +1,10 @@
+{  
+"liveServer.settings.https":   
+{
+"enable": true, //set it true to enable the feature.  
+"cert": "E:\\Dad Files\\Projects\\polyfractal.trade\\server.crt", //full path of the certificate  
+"key": "E:\\Dad Files\\Projects\\polyfractal.trade\\server.key", //full path of the private key  
+"passphrase": "87654321"  
+},
+"liveServer.settings.port": 5503
+}
