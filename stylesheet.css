@@ -7,5 +7,30 @@
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.824);
+}
+.navbar .container-fluid .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.navbar .container-fluid .nav-link {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.navbar .container-fluid .nav-link:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.navbar-toggler {
+    color: rgba(255, 255, 255, 0.567);
+    background-color: rgba(255, 255, 255, 0.125);
+}
+nav .logo_container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+nav .logo {
+    width: 40px;
+    text-align: center;
 }
