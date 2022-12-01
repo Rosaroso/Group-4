@@ -57,6 +57,7 @@ nav .audio audio {
     text-align: center;
     margin: 20px;
     width: 15rem;
+    height: 300px;
     background-position: center;
     background-size: cover;
     color:rgb(255, 255, 255);
@@ -69,7 +70,6 @@ footer .container-language {
     list-style: none;
     color: rgb(255, 255, 255);
 }
-footer .container-language li img {
-    width: 100px;
-    height: 100px;
+footer .container-language img {
+    width: 50px;
 }
