@@ -61,3 +61,15 @@ nav .audio audio {
     background-size: cover;
     color:rgb(255, 255, 255);
 }
+footer {
+    background-color: rgb(19, 17, 17);
+}
+
+footer .container-language {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+footer .container-language li img {
+    width: 100px;
+    height: 100px;
+}
