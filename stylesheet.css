@@ -1,0 +1,11 @@
+.carousel-item {
+    height: 600px;
+}
+.content {
+    height: 1000px;
+    background-color: black;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+}
