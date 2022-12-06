@@ -1,3 +1,4 @@
+/*----------------------------- NAVBAR --------------------------------*/
 .navbar {
     background-color: rgb(19, 17, 17);
 }
@@ -36,9 +37,13 @@ nav .audio audio {
     width: 300px;
     height: 20px;
 }
+/*----------------------------- NAVBAR --------------------------------*/
+/*----------------------------- CAROUSEL --------------------------------*/
 .header-container .carousel-item {
     height: 600px;
 }
+/*----------------------------- CAROUSEL --------------------------------*/
+/*----------------------------- CHARACTER GALLERY --------------------------------*/
 .title-gallery {
     font-size: 30px;
     font-family: calibri light;
@@ -50,6 +55,10 @@ nav .audio audio {
 .containerGallery .carousel-inner {
     padding: 25px;
     background-color: rgb(19, 17, 17);
+}
+.containerGallery .carousel-card {
+    display: flex;
+    justify-content: center;
 }
 .containerGallery .card {
     display: inline-flex;
@@ -63,27 +72,20 @@ nav .audio audio {
     background-size: cover;
     color:rgb(255, 255, 255);
 }
-.logo {
-    background-color: rgb(19, 17, 17);
-}
-
-.logo .container-language {
-    color: rgb(255, 255, 255);
-}
-.logo .container-language img {
-    width: 50px;
-}
+/*----------------------------- CHARACTER GALLERY --------------------------------*/
+/*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
 .character_container {
     background-color: rgb(19, 17, 17);
 }
-.character_container .character_profile {
-    background-image: url(aswang.jpg);
-    background-size: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
+.character_container img {
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin-top: 50px;
+}
+.character_container .character_container_profile {
+    display: flex;
+    justify-content: center;
 }
 .character_container .character_story {
     color: rgb(255, 255, 255);
@@ -91,3 +93,4 @@ nav .audio audio {
     font-size: 30px;
     padding: 100px;
 }
+/*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
