@@ -39,8 +39,17 @@ nav .audio audio {
 }
 /*----------------------------- NAVBAR --------------------------------*/
 /*----------------------------- CAROUSEL --------------------------------*/
+.header-container {
+    height: 600px;
+}
 .header-container .carousel-item {
     height: 600px;
+    background-position: center;
+}
+.header-container .carousel-item img{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
 }
 /*----------------------------- CAROUSEL --------------------------------*/
 /*----------------------------- CHARACTER GALLERY --------------------------------*/
@@ -74,24 +83,22 @@ nav .audio audio {
     color:rgb(255, 255, 255);
 }
 /*----------------------------- CHARACTER GALLERY --------------------------------*/
+.offcanvas {
+    width: 80%;
+    background-color: rgb(19, 17, 17);
+}
+.offcanvas button {
+    color: rgb(19, 17, 17);
+}
+
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
 .character_container {
     background-color: rgb(19, 17, 17);
 }
-.character_container img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin-top: 50px;
-}
-.character_container .character_container_profile {
-    display: flex;
-    justify-content: center;
-}
 .character_container .character_story {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding: 100px;
 }
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
