@@ -84,25 +84,20 @@ nav .audio audio {
 }
 /*----------------------------- CHARACTER GALLERY --------------------------------*/
 .offcanvas {
-    width: 80%;
+    top: 150px;
+    height: 400px;
     background-color: rgb(19, 17, 17);
+    transition: 0.4s;
 }
-.offcanvas button {
-    color: rgb(19, 17, 17);
-}
-
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
-.character_container {
-    background-color: rgb(19, 17, 17);
-}
 .character_container .character_story {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 20px;
-    padding: 100px;
+    padding: 50px;
 }
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
 footer {
-    background-color: rgb(255, 255, 255);
     height: 200px;
+    background-color: rgb(19, 17, 17);
 }
