@@ -86,8 +86,14 @@ nav .audio audio {
 .offcanvas {
     top: 150px;
     height: 400px;
+    text-align: center;
     background-color: rgb(19, 17, 17);
-    transition: 0.4s;
+}
+.offcanvas img {
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
 .character_container .character_story {
