@@ -109,17 +109,7 @@ footer {
     padding-bottom: 25px;
     text-align: center;
     background-color: rgb(19, 17, 17);
-}
-footer p {
-    margin-bottom: auto;
-    color: rgba(255, 255, 255, 0.824);
-}
-footer #icons {
-    width: 15%;
-    margin: 0 auto;
-}
-footer th {
-    width: 45px;
+    list-style: none;
 }
 footer .icon {
     width: 40px;
@@ -136,5 +126,20 @@ footer .copyright {
     font-family: calibri;
     font-size: 15px;
     color: rgb(255, 255, 255);
+}
+footer table {
+    width: 100%;
+}
+footer table, th, tr, td {
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    font-style: calibri light;
+    font-size: 20px;
+}
+footer table .language_icon {
+    width: 25px;
+}
+footer table .qrcode {
+    width: 10%;
 }
 /*======================================= FOOTER ==========================================*/
