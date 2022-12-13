@@ -110,11 +110,11 @@ footer {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-footer .icon {
+.icon {
     width: 40px;
     padding: 5px;
 }
-footer .icon:hover {
+.icon:hover {
     padding: 10px;
     border-radius:50%;
     background-color: rgba(255, 255, 255, 0.69);
@@ -142,3 +142,10 @@ footer .social_links {
     margin: 10px;
 }
 /*======================================= FOOTER ==========================================*/
+.creators {
+    display: flex;
+    flex-wrap: wrap;
+}
+.creators .card {
+    margin: 20px;
+}
