@@ -105,11 +105,10 @@ nav .audio audio {
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
 footer {
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
     background-color: rgb(19, 17, 17);
     list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 footer .icon {
     width: 40px;
@@ -120,26 +119,26 @@ footer .icon:hover {
     border-radius:50%;
     background-color: rgba(255, 255, 255, 0.69);
     transition: 0.1s;
-} 
-footer .copyright {
-    text-align: center;
-    font-family: calibri;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
 }
-footer table {
-    width: 100%;
-}
-footer table, th, tr, td {
-    border: 2px solid white;
-    color: rgb(255, 255, 255);
-    font-style: calibri light;
-    font-size: 20px;
-}
-footer table .language_icon {
+footer .language_icon {
     width: 25px;
 }
-footer table .qrcode {
-    width: 10%;
+footer .qr_code {
+    width: 60%;
+}
+footer .qr_code img {
+    width: 100px;
+    border-radius: 10%;
+}
+footer .lang_social {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+footer .languages {
+    margin: 10px;
+}
+footer .social_links {
+    margin: 10px;
 }
 /*======================================= FOOTER ==========================================*/
