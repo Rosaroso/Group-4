@@ -1,6 +1,11 @@
 /*----------------------------- NAVBAR --------------------------------*/
 .navbar {
     background-color: rgb(19, 17, 17);
+    
+}
+.navbar .navbar-nav {
+    position: absolute;
+    right: 100px;
 }
 .navbar .container-fluid .navbar-brand {
     color: rgb(255, 255, 255);
@@ -67,6 +72,7 @@ nav .audio audio {
 }
 .containerGallery .carousel-card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .containerGallery .card {
@@ -76,8 +82,8 @@ nav .audio audio {
     margin: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    width: 20%;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     background-position: center;
     background-size: cover;
     color:rgb(255, 255, 255);
@@ -90,7 +96,6 @@ nav .audio audio {
     background-color: rgb(19, 17, 17);
 }
 .offcanvas img {
-    
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -104,6 +109,8 @@ nav .audio audio {
 }
 /*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
 footer {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     background-color: rgb(19, 17, 17);
     list-style: none;
@@ -123,29 +130,71 @@ footer {
 footer .language_icon {
     width: 25px;
 }
-footer .qr_code {
+footer .qrcode_logo {
     width: 60%;
+    padding: 30px;
+    padding-left: 100px;
 }
-footer .qr_code img {
-    width: 100px;
+footer .qrcode_logo .qrcode_image {
+    width: 150px;
+    padding: 20px;
+}
+footer .logo {
+    width: 300px;
     border-radius: 10%;
 }
 footer .lang_social {
-    display: flex;
-    flex-wrap: wrap;
     margin: 10px;
+    padding-left: 100px;
 }
 footer .languages {
     margin: 10px;
+}
+footer .languages a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+footer .languages a:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
 }
 footer .social_links {
     margin: 10px;
 }
 /*======================================= FOOTER ==========================================*/
-.creators {
+.aboutus_container {
+    position: relative;
+    background-image: url(pexels-spencer-selover-428396.jpg);
+}
+.aboutus_container .aboutus {
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.creators .card {
+.aboutus_container .aboutus .card {
     margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgb(255, 255, 255);
+}
+.aboutus_container .aboutus .profile {
+    padding: 50px;
+    border-radius: 50%;
+}
+.aboutus_container .aboutus .card-body {
+    background-color: rgba(0, 0, 0, 0.375);
+}
+.line {
+    background-color: rgb(19, 17, 17);
+}
+.gradient_top {
+    height: 20px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(134, 134, 134, 0));
+}
+.gradient_bottom {
+    height: 20px;
+    background-image: linear-gradient(rgba(134, 134, 134, 0),rgb(0, 0, 0));
 }
