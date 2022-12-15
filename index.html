@@ -17,26 +17,17 @@
     </head>
     <body>
 <!------------------------------------------------------- NAVIGATION -------------------------------------------------------------->
-        <nav class="navbar navbar-expand-lg">
-			<div class="container-fluid">
-				<div class="logo_container"><img class="logo" src="logoicon.png"></div>
-				<button class="navbar-toggler" type="button" 
-				data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
-				aria-controls="navbarNavAltMarkup" aria-expanded="false" 
-				aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                        <a class="nav-link active" aria-current="page" href="#creators">ABOUT US</a>
-					</div>
-					<div class="audio">
-						<audio src="..." autoplay controls loop></audio>
-					</div>
-				</div>
-			</div>
-		</nav>
+        <nav class="navbar sticky-top">
+            <div class="container-fluid">
+                <div class="logo_container"><img class="logo" src="logoicon.png"></div>
+                <div class="link_container">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="#creatures">CREATURES</a>
+                    <a class="nav-link active" aria-current="page" href="#aboutus">ABOUT US</a>
+                </div>
+            </div>
+            <div class="gradient_top"></div>
+        </nav>
 <!------------------------------------------------------- HEADER CAROUSEL -------------------------------------------------------------->
         <div class="header-container">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -63,7 +54,7 @@
             </div>
         </div>
 <!------------------------------------------------------- CHARACTER GALLERY/DESCRIPTION -------------------------------------------------------------->
-        <div class="title-gallery">PHILIPPINE MYTHICAL CREATURES</div>
+        <div id="creatures" class="title-gallery">PHILIPPINE MYTHICAL CREATURES</div>
         <div class="containerGallery">
             <div id="carouselExampleControls" class="carousel slide">
                 <div class="carousel-inner">
@@ -408,126 +399,125 @@
             </div>
         </div>
 <!------------------------------------------------------- ABOUT US -------------------------------------------------------------->
-        <div class="aboutus_container">
-            <div class="gradient_top"></div>
-            <div id="aboutus" class="aboutus">
-                <div class="card" style="width: 18rem;">
-                    <img class="profile" src="rosaroso.jpg" class="card-img-top" alt="Kenneth Rosaroso">
-                    <div class="card-body">
-                        <h5 class="card-title">Kenneth Rosh C. Rosaroso</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    <a href="https://www.instagram.com" target="_blank">
-                                        <img class="icon" src="instagram.png" alt="Instagram">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.facebook.com" target="_blank">
-                                        <img class="icon" src="facebook.png" alt="Facebook">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.twitter.com" target="_blank">
-                                        <img class="icon" src="twitter.png" alt="Twitter">
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="profile" src="anfone.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Rosalie L. Anfone</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    <a href="https://www.instagram.com" target="_blank">
-                                        <img class="icon" src="instagram.png" alt="Instagram">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.facebook.com" target="_blank">
-                                        <img class="icon" src="facebook.png" alt="Facebook">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.twitter.com" target="_blank">
-                                        <img class="icon" src="twitter.png" alt="Twitter">
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="profile" src="olarte.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Reynante Kyle Olarte</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    <a href="https://www.instagram.com" target="_blank">
-                                        <img class="icon" src="instagram.png" alt="Instagram">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.facebook.com" target="_blank">
-                                        <img class="icon" src="facebook.png" alt="Facebook">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.twitter.com" target="_blank">
-                                        <img class="icon" src="twitter.png" alt="Twitter">
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+<div id="aboutus" class="aboutus_container">
+    <div class="gradient_top"></div>
+    <div class="aboutus">
+        <div class="card" style="width: 18rem;">
+            <img class="profile" src="rosaroso.jpg" class="card-img-top" alt="Kenneth Rosaroso">
+            <div class="card-body">
+                <h5 class="card-title">Kenneth Rosh C. Rosaroso</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img class="icon" src="instagram.png" alt="Instagram">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img class="icon" src="facebook.png" alt="Facebook">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img class="icon" src="twitter.png" alt="Twitter">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div class="gradient_bottom"></div>
         </div>
-        
+        <div class="card" style="width: 18rem;">
+            <img class="profile" src="anfone.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rosalie L. Anfone</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img class="icon" src="instagram.png" alt="Instagram">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img class="icon" src="facebook.png" alt="Facebook">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img class="icon" src="twitter.png" alt="Twitter">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="profile" src="olarte.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Reynante Kyle Olarte</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img class="icon" src="instagram.png" alt="Instagram">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img class="icon" src="facebook.png" alt="Facebook">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img class="icon" src="twitter.png" alt="Twitter">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="gradient_bottom"></div>
+</div>
 <!------------------------------------------------------- FOOTER -------------------------------------------------------------->
-        <footer>
-            <div class="qrcode_logo">
-                <img class="qrcode_image" src="qr-code.png">
-                <img class="logo" src="logo.png">
-            </div>
-            <div class="lang_social">
-                <div class="languages">
-                    <li>L A N G U A G E</li>
-                    <li><a href="index.html"><img class="language_icon" src="united-kingdom.png"> ENGLISH</a></li>
-                    <li><a href="tagalog.html"><img class="language_icon" src="philippines.png"> TAGALOG</a></li>
-                </div>
-                <div class="social_links">
-                    <div>SOCIAL LINKS</div>
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="https://www.instagram.com" target="_blank">
-                                    <img class="icon" src="instagram.png" alt="Instagram">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="https://www.facebook.com" target="_blank">
-                                    <img class="icon" src="facebook.png" alt="Facebook">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="https://www.twitter.com" target="_blank">
-                                    <img class="icon" src="twitter.png" alt="Twitter">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </footer>
-    </body>
+<footer>
+    <div class="qrcode_logo">
+        <img class="qrcode_image" src="qrcode.png">
+        <img class="logo" src="logo.png">
+    </div>
+    <div class="lang_social">
+        <div class="languages">
+            <li>L A N G U A G E</li>
+            <li><a href="index.html"><img class="language_icon" src="united-kingdom.png"> ENGLISH</a></li>
+            <li><a href="tagalog.html"><img class="language_icon" src="philippines.png"> TAGALOG</a></li>
+        </div>
+        <div class="social_links">
+            <div>SOCIAL LINKS</div>
+            <table>
+                <tr>
+                    <td>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img class="icon" src="instagram.png" alt="Instagram">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img class="icon" src="facebook.png" alt="Facebook">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img class="icon" src="twitter.png" alt="Twitter">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</footer>
+</body>
 </html>

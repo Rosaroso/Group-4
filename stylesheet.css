@@ -1,46 +1,38 @@
+body {
+    background-color: rgb(19, 17, 17);
+}
 /*----------------------------- NAVBAR --------------------------------*/
 .navbar {
     background-color: rgb(19, 17, 17);
-    
 }
-.navbar .navbar-nav {
-    position: absolute;
-    right: 100px;
-}
-.navbar .container-fluid .navbar-brand {
-    color: rgb(255, 255, 255);
+.navbar .container-fluid .link_container {
+    display: flex;
 }
 .navbar .container-fluid .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: rgb(255, 255, 255);
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .navbar .container-fluid .nav-link:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     transition: 0.2s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.navbar-toggler {
-    color: rgba(255, 255, 255, 0.567);
-    background-color: rgba(255, 255, 255, 0.125);
-}
-nav .logo_container {
+.navbar .logo_container {
     margin-left: 30px;
     margin-right: 30px;
 }
-nav .logo {
+.navbar .logo {
     width: 40px;
-    text-align: center;
-}
-nav .audio {
-    position: absolute;
-    top: 23px;
-    right: 100px;
-}
-nav .audio audio {
-    display: none;
-    width: 300px;
-    height: 20px;
 }
 /*----------------------------- NAVBAR --------------------------------*/
 /*----------------------------- CAROUSEL --------------------------------*/
@@ -88,6 +80,9 @@ nav .audio audio {
     background-size: cover;
     color:rgb(255, 255, 255);
 }
+.containerGallery .card:hover {
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0px rgb(255, 255, 255);
+}
 /*----------------------------- CHARACTER GALLERY --------------------------------*/
 .offcanvas {
     top: 150px;
@@ -107,7 +102,43 @@ nav .audio audio {
     font-size: 20px;
     padding: 50px;
 }
-/*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
+/*----------------------------- ABOUT US --------------------------------*/
+.aboutus_container {
+    position: relative;
+    background-image: url(pexels-spencer-selover-428396.jpg);
+}
+.aboutus_container .aboutus {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aboutus_container .aboutus .card {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid rgb(255, 255, 255);
+}
+.aboutus_container .aboutus .profile {
+    padding: 50px;
+    border-radius: 50%;
+}
+.aboutus_container .aboutus .card-body {
+    background-color: rgba(0, 0, 0, 0.375);
+}
+.line {
+    background-color: rgb(19, 17, 17);
+}
+.gradient_top {
+    height: 20px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(134, 134, 134, 0));
+}
+.gradient_bottom {
+    height: 20px;
+    background-image: linear-gradient(rgba(134, 134, 134, 0),rgb(0, 0, 0));
+}
+/*----------------------------- FOOTER --------------------------------*/
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -161,40 +192,4 @@ footer .languages a:hover {
 }
 footer .social_links {
     margin: 10px;
-}
-/*======================================= FOOTER ==========================================*/
-.aboutus_container {
-    position: relative;
-    background-image: url(pexels-spencer-selover-428396.jpg);
-}
-.aboutus_container .aboutus {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.aboutus_container .aboutus .card {
-    margin: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0);
-    border: 3px solid rgb(255, 255, 255);
-}
-.aboutus_container .aboutus .profile {
-    padding: 50px;
-    border-radius: 50%;
-}
-.aboutus_container .aboutus .card-body {
-    background-color: rgba(0, 0, 0, 0.375);
-}
-.line {
-    background-color: rgb(19, 17, 17);
-}
-.gradient_top {
-    height: 20px;
-    background-image: linear-gradient(rgb(0, 0, 0),rgba(134, 134, 134, 0));
-}
-.gradient_bottom {
-    height: 20px;
-    background-image: linear-gradient(rgba(134, 134, 134, 0),rgb(0, 0, 0));
 }
