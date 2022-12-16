@@ -1,3 +1,4 @@
+/*----------------------------- BODY --------------------------------*/
 body {
     background-color: rgb(19, 17, 17);
 }
@@ -34,7 +35,6 @@ body {
 .navbar .logo {
     width: 40px;
 }
-/*----------------------------- NAVBAR --------------------------------*/
 /*----------------------------- CAROUSEL --------------------------------*/
 .header-container {
     height: 600px;
@@ -48,7 +48,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-/*----------------------------- CAROUSEL --------------------------------*/
 /*----------------------------- CHARACTER GALLERY --------------------------------*/
 .title-gallery {
     font-size: 30px;
@@ -84,26 +83,20 @@ body {
 .containerGallery .card:hover {
     box-shadow: 0 0 5px rgb(255, 255, 255), 0 0px rgb(255, 255, 255);
 }
-/*----------------------------- CHARACTER GALLERY --------------------------------*/
-.offcanvas {
-    top: 150px;
-    height: 400px;
-    text-align: center;
-    background-color: rgb(19, 17, 17);
-}
-.offcanvas img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-}
-/*----------------------------- CHARACTER DESCRIPTION --------------------------------*/
+/*--------------- CHARACTER DESCRIPTION ------------------*/
 .character_container .character_story {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 20px;
     padding: 50px;
 }
-/*----------------------------- ABOUT US --------------------------------*/
+.offcanvas {
+    top: 150px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+/*----------------------------- TEAM --------------------------------*/
 .aboutus_container {
     position: relative;
     background-image: url(pexels-spencer-selover-428396.jpg);
@@ -156,16 +149,7 @@ footer {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-.icon {
-    width: 40px;
-    padding: 5px;
-}
-.icon:hover {
-    padding: 10px;
-    border-radius:50%;
-    background-color: rgba(255, 255, 255, 0.69);
-    transition: 0.1s;
-}
+
 footer .language_icon {
     width: 25px;
 }
@@ -200,4 +184,15 @@ footer .languages a:hover {
 }
 footer .social_links {
     margin: 10px;
+}
+/*----------------------------- GENERAL / MISCELLANEOUS STYLESHEET --------------------------------*/
+.icon {
+    width: 40px;
+    padding: 5px;
+}
+.icon:hover {
+    padding: 10px;
+    border-radius:50%;
+    background-color: rgba(255, 255, 255, 0.69);
+    transition: 0.1s;
 }
